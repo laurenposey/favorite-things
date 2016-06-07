@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Favorite Things</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="jumbotron text-center">What is your <span class="text-danger">favorite</span>...</h1>
+      <form id="favorites">
+        <div>
+          <div class="form-group">
+            <label for="animal">Animal:</label>
+            <input id="animal" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="color">Color:</label>
+            <input id="color" class="form-control" type:"text">
+          </div>
+          <div class="form-group">
+            <label for="movie">Movie:</label>
+            <input id="movie" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for"book">Book:</label>
+            <input id="book" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="song">Song:</label>
+            <input id="song" class="form-control" type="text">
+          </div>
+        </div>
+        <div>
+          <button id="submit" class="btn btn-success">Submit</button>
+        </div>
+      </form>
+      <div id="allThings">
+        <h3>Your favorite things:</h3>
+        <ul id="ulofMyFavoriteThings">
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
